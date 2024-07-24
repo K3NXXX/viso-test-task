@@ -3,7 +3,7 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-	apiKey: "AIzaSyDk33JCbXHGx5Ra0taI5uI73WT0nHmyaag",
+	apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
 	authDomain: "viso-test-task-7bf46.firebaseapp.com",
 	projectId: "viso-test-task-7bf46",
 	storageBucket: "viso-test-task-7bf46.appspot.com",
